@@ -1,10 +1,11 @@
 # 🕵️‍♀️ CyberQuest: Missão Datacenter
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Security](https://img.shields.io/badge/AppSec-Audited-success?style=for-the-badge)
 
-**CyberQuest** é um mini-RPG educacional desenvolvido em React. O objetivo do projeto é ensinar conceitos fundamentais de Cibersegurança de forma gamificada, unindo lógica de programação (Game Loop, State Management) com consciencialização em segurança da informação.
+## 🎯 Objetivo
+
+Aplicação web interativa (Mini-RPG) desenvolvida em **React** com apoio do **Gemini** e **Antigravity** com foco educacional. 
+
+O objetivo do projeto foi traduzir conceitos técnicos e fluxos complexos em uma jornada de aprendizado visual e gamificada. A construção desta interface envolveu o mapeamento de processos e a aplicação de conceitos de experiência do usuário (UX) para estruturar treinamentos operacionais de forma intuitiva.
 
 ---
 
@@ -22,36 +23,6 @@ Um labirinto de sobrevivência baseado em turnos. O jogador precisa de se desvia
 
 ![Datacenter](./docs/datacenter.png)
 
-### 🛡️ Módulos de Aprendizagem (Missões)
-- **Engenharia Social (Phishing):** Análise de remetentes suspeitos e URLs maliciosas.
-- **Gestão de Identidade (IAM):** Criação de senhas fortes e importância da Autenticação Multifator (MFA).
-- **Segurança de Rede (Firewall):** Monitorização de tráfego e bloqueio de portas não autorizadas.
-- **Segurança em IA:** Mitigação de ataques de *Prompt Injection* contra modelos de linguagem.
-
-### 🤖 Inteligência Artificial Assimétrica
-Para tornar o desafio dinâmico, os inimigos (RansomBots) possuem comportamentos distintos:
-- **O Sentinela:** Patrulha corredores em velocidade acelerada.
-- **O Caçador:** Utiliza *Pathfinding* para perseguir o jogador constantemente.
-- **Mecânica de Extração (Modo Fúria):** Ao completar as missões, o sistema entra em colapso. A velocidade dos inimigos aumenta para uma perseguição 1:1 e um Portal de Fuga é ativado.
-
----
-
-## 🛠️ Arquitetura e Tecnologias
-
-- **Front-End:** React.js (Hooks, Event-Driven Architecture)
-- **Estilização:** Tailwind CSS (Renderização condicional e animações)
-- **Gráficos:** Sistema de *Overlay Invisível* (Matrizes de colisão invisíveis sobrepostas a artes top-down de alta resolução).
-- **Ícones:** Lucide React
-
----
-
-## 🔒 Postura de Segurança (AppSec)
-
-Este projeto foi construído e auditado com foco em boas práticas de Segurança de Aplicações:
-- **Secret Scanning:** Zero credenciais, tokens ou APIs hardcoded.
-- **Higiene de Código:** Ausência de Information Disclosure (sem `console.log` a vazar o estado do jogo).
-- **Prevenção de XSS:** Renderização segura de componentes React, sem uso de manipulação de DOM insegura (`dangerouslySetInnerHTML`).
-- **Git Shield:** Ficheiro `.gitignore` blindado contra a fuga de chaves privadas e ficheiros de configuração de ambiente (`.env`).
 
 ---
 
